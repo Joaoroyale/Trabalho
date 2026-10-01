@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+li.normal  { color: #1b7f3b; }
+li.atencao { color: #b36b00; }
+li.alerta  { color: #c0392b; font-weight: bold; }

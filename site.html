@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UnaAlerta - Palmares/PE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>UnaAlerta</h1>
+  <p>Monitoramento comunitário do Rio Una em Palmares (PE)</p>
+
+  <form id="form">
+    <input id="local" placeholder="Local (ex.: Centro)" required>
+    <input id="nivel" type="number" step="0.1" placeholder="Nível (m)" required>
+    <button type="submit">Registrar</button>
+  </form>
+
+  <ul id="lista"></ul>
+
+  <footer><small>UnaAlerta v1.0.1 - Palmares/PE</small></footer>
+
+  <script src="classificacao.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
